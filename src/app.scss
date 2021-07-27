@@ -7,6 +7,9 @@
         background-color: magenta;
         position: relative;
         top: 70px;
+        // change speed of scroll when clicking on anchor
+        scroll-behavior: smooth;
+
         // snap scrolling
         scroll-snap-type: y mandatory;
         scrollbar-width: none; // for firefox
