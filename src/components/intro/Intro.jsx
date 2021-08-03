@@ -10,6 +10,8 @@ export default function Intro() {
     useEffect(()=> {
         init(textRef.current, {
             showCursor: false,
+            backDelay: 1500, //adds a delay before backspacing text
+            backSpeed: 70,
             strings: ["Healthcare","Bio-medical Informatics", "Machine Learning", "Bio-medical Diagnostics"]
         });
     },[]);
