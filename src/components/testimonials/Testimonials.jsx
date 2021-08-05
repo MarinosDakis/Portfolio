@@ -5,21 +5,21 @@ export default function Testimonials() {
     const data = [
         {
           id: 1,
-          name: "Tom Durden",
+          name: "Christine Salboudis",
           title: "Senior Developer",
           img:
             "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/twitter.png",
+          icon: "assets/linkedin.png",
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
         },
         {
           id: 2,
-          name: "Alex Kalinski",
-          title: "Co-Founder of DELKA",
+          name: "Christine Salboudis",
+          title: "CEO of Philo4Thought",
           img:
-            "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/youtube.png",
+            "https://www.philo4thought.org/wp-content/uploads/2020/09/Salboudis.png",
+          icon: "assets/linkedin.png",
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
           featured: true,

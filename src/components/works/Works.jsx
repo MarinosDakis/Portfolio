@@ -10,7 +10,7 @@ export default function Works() {
         {
           id: "1",
           icon: "./assets/mobile.png",
-          title: "Web Design",
+          title: "Web Development",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
           img:
@@ -19,7 +19,7 @@ export default function Works() {
         {
           id: "2",
           icon: "./assets/globe.png",
-          title: "Mobile Application",
+          title: "Covid-19 Data Challenge",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           img:
@@ -28,7 +28,7 @@ export default function Works() {
         {
           id: "3",
           icon: "./assets/writing.png",
-          title: "Branding",
+          title: "Academic Projects",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           img:
@@ -48,7 +48,7 @@ export default function Works() {
               {data.map((d) => (
 
                 <div className="container">
-                <div className="item">
+                <div className="itemWorks">
                     <div className="left">
                         <div className="leftContainer">
                             <div className="imgContainer">

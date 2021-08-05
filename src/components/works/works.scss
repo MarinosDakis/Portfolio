@@ -45,7 +45,7 @@
       align-items: center;
       justify-content: center;
 
-      .item {
+      .itemWorks {
         width: 700px;
         height: 100%;
         background-color: white;
@@ -53,6 +53,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0;
+        border: none;
 
         @include mobile {
           width: 80%;
@@ -90,12 +92,15 @@
 
               img {
                 width: 25px;
+                height: 100%;
 
                 @include mobile {
                   width: 15px;
+                  height: 15px;
                 }
               }
             }
+            
             h2 {
               font-size: 20px;
               color: black;
@@ -104,12 +109,15 @@
                 font-size: 13px;
               }
             }
+
             p {
               font-size: 13px;
+
               @include mobile{
                 display: none;
               }
             }
+
             span {
               font-size: 12px;
               font-weight: 600;
@@ -119,6 +127,7 @@
             }
           }
         }
+
         .right {
           flex: 8;
           height: 100%;
