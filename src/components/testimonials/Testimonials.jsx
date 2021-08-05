@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 import "./testimonials.scss"
 
 export default function Testimonials() {

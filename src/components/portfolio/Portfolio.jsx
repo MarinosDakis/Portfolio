@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss"

@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 import "./contact.scss"
 import { useState } from "react";
 

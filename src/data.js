@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 export const featuredPortfolio = [
     {
       id: 1,
@@ -28,13 +30,7 @@ export const featuredPortfolio = [
       title: "Hero Web Design",
       img:
         "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
+    }
   ];
   
   export const webPortfolio = [

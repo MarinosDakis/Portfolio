@@ -1,5 +1,7 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 import "./topbar.scss"
-import {Person, Mail, Description} from "@material-ui/icons"
+import {Person, Mail, Description, LinkedIn, GitHub, Instagram} from "@material-ui/icons"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -18,6 +20,18 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <div className="itemContainer">
                         <Description className="icon"  />
                         <span><a href="https://drive.google.com/file/d/1JdVxvzCYUxKv2huH1noyQR2_BbG9vEqw/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></span>
+                    </div>
+                    <div className="itemContainer">
+                        <LinkedIn className="icon"  />
+                        <span><a href="https://www.linkedin.com/in/marinos-dakis/" target="_blank" rel="noreferrer">LinkedIn</a></span>
+                    </div>
+                    <div className="itemContainer">
+                        <GitHub className="icon"  />
+                        <span><a href="https://github.com/MarinosDakis" target="_blank" rel="noreferrer">GitHub</a></span>
+                    </div>
+                    <div className="itemContainer">
+                        <Instagram className="icon"  />
+                        <span><a href="https://www.instagram.com/marinos_dakis/" target="_blank" rel="noreferrer">Instagram</a></span>
                     </div>
                 </div>
                 <div className="right">

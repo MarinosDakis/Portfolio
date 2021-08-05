@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
@@ -20,7 +22,7 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/man.png" alt="Marinos" />
+                    <img src="assets/resume pic crop.png" alt="Marinos" />
                 </div>
             </div>
             <div className="right">

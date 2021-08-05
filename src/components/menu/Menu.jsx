@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 import "./menu.scss"
 
 export default function Menu({ menuOpen, setMenuOpen }) {

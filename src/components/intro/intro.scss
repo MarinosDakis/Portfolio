@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 @import "../../global.scss";
 
 .intro {
@@ -16,7 +18,7 @@
         .imgContainer {
            width: 700px;
            height: 700px;
-           background-color: crimson;
+           background-color: $blueShade;
            border-radius: 50%;
            display: flex;
            align-items: flex-end;
@@ -78,7 +80,7 @@
 
                 span {
                    font-size: inherit;
-                   color: crimson; 
+                   color: $blueShade; 
                 }
             }
         }

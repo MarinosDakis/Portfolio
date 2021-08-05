@@ -1,3 +1,5 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 @import "../../global.scss";
 
 .contact {
@@ -23,6 +25,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-color: $mainColor;
+
 
         h2 {
             font-size: 30px;
@@ -74,7 +78,7 @@
             }
 
             span {
-                color: green;
+                color: white;
               }
         }
     }

@@ -1,7 +1,9 @@
+// Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
+
 @import "../../global.scss";
 
 .works {
-  background-color: crimson;
+  background-color: $blueShade;
   display: flex;
   align-items: center;
   justify-content: center;
