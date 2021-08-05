@@ -27,12 +27,20 @@
                text-decoration: none;
                color: inherit;
                margin-right: 40px;
+
+               @include mobile {
+                font-size: 30px;
+            }
            } 
 
            .itemContainer {
                display: flex;
                align-items: center;
                margin-left: 30px;
+
+               @include mobile {
+                display: none;
+            }
 
                .icon {
                    font-size: 18px;
