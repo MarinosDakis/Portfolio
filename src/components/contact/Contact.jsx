@@ -2,6 +2,7 @@
 
 import "./contact.scss"
 import { useState } from "react";
+//import { FormControl, TextField} from '@material-ui/core';
 
 export default function Contact() {
 
@@ -23,7 +24,7 @@ export default function Contact() {
            <div className="right">
                <h2>Contact.</h2>
                <form onSubmit={handleSubmit}>
-                   <input type="text" placeholder="Email"/>
+                   <input type="text" placeholder="Email" />
                    <textarea placeholder="Message"></textarea>
                    <button type="submit">Send</button>
                    {message && <span>Your message has been sent!</span>}

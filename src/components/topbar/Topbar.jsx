@@ -1,7 +1,7 @@
 // Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
 
 import "./topbar.scss"
-import {Person, Mail, Description, LinkedIn, GitHub, Instagram} from "@material-ui/icons"
+import {Phone, Mail, Description, LinkedIn, GitHub, Instagram} from "@material-ui/icons"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -10,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
                     <a href="#intro" className="logo">Marinos Dakis.</a>
                     <div className="itemContainer">
-                        <Person className="icon" />
+                        <Phone className="icon" />
                         <span>(516)-737-5961</span>
                     </div>
                     <div className="itemContainer">

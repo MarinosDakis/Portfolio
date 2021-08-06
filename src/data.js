@@ -3,9 +3,9 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Course Enrollment Web Application",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/project images/QcFirst.png",
     },
     {
       id: 2,
