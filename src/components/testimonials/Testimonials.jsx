@@ -7,13 +7,13 @@ export default function Testimonials() {
     const data = [
         {
           id: 1,
-          name: "Christine Salboudis",
-          title: "Senior Developer",
+          name: "",
+          title: "",
           img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "assets/temp.png",
           icon: "assets/linkedin.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "",
         },
         {
           id: 2,
@@ -23,19 +23,19 @@ export default function Testimonials() {
             "https://www.philo4thought.org/wp-content/uploads/2020/09/Salboudis.png",
           icon: "assets/linkedin.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+            "\"Time and again Marinos demonstrated his ability to excel independently, as part of a team and as a project leader. His dedication to ensuring that all work was on-point, met the complex requirements of his technical project and was completed on a tight deadline impressed several of our extended network as well. All in all, Marinos is a great asset to any organization to which he belongs and has my team's strongest recommendation as a one-of-a-kind STEM professional.\"",
           featured: true,
         },
         {
-          id: 3,
-          name: "Martin Harold",
-          title: "CEO of ALBI",
-          img:
-            "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/linkedin.png",
-          desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-        },
+            id: 3,
+            name: "",
+            title: "",
+            img:
+              "assets/temp.png",
+            icon: "assets/linkedin.png",
+            desc:
+              "",
+          },
       ];
 
     return (

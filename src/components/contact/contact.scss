@@ -25,7 +25,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: white;
+        background-color: black;
 
 
         h2 {
@@ -52,12 +52,17 @@
                   }
             }
 
+            input:focus, textarea:focus {
+                border: 3px solid $blueShade;
+            }
+
             textarea {
                 width: 300px;
                 height: 200px;
                 font-size: 14px;
+                resize: none;
 
-                @include mobile{
+                @include mobile {
                     width: 200px;
                     height: 100px;
                   }
@@ -67,7 +72,7 @@
                 width: 150px;
                 height: 30px;
                 color: white;
-                background-color: crimson;
+                background-color: $blueShade;
                 border: none;
                 border-radius: 10px;
                 font-weight: 500;
