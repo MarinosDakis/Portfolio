@@ -12,29 +12,23 @@ export default function Works() {
         {
           id: "1",
           title: "QC First",
-          desc:
-            "QcFirst is a full-stack course enrollment web application for students, instructors and administrators that was created using EJS, Bootstrap, CSS, MongoDB/Mongoose, and JavaScript (Node JS).",
-          img:
-            "assets/project images/QcFirst.png",
+          desc: "QcFirst is a full-stack course enrollment web application for students, instructors and administrators that was created using EJS, Bootstrap, CSS, MongoDB/Mongoose, and JavaScript (Node JS).",
+          img: "assets/project images/QcFirst.png",
           url: "https://qcfirst--marinosdakis.repl.co/"
         },
         {
           id: "2",
           title: "Covid-19 Data Challenge",
-          desc:
-            "Team leader of 6 graduate students in COVID-19 project that assessed symptom survey data in partnership with Facebook Data for Good, Delphi Group, Joint Program on Survey Methodology, and more!",
-          img:
-            "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-            url: ""
+          desc: "Team leader of 6 graduate students in COVID-19 project that assessed symptom survey data in partnership with Facebook Data for Good, Delphi Group, Joint Program on Survey Methodology, and more!",
+          img: "assets/project images/virus.png",
+          url: "https://drive.google.com/drive/folders/1PYz0QVXH8OBVOPLXHcoNF3mcu90ZfzM4?usp=sharing"
         },
         {
           id: "3",
-          title: "Academic Projects",
-          desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-          img:
-            "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-            url: ""
+          title: "Philo4Thought Website",
+          desc: "Implemented new secure interactive WordPress site (100+ pages) for Philo4Thought Inc. using Elementor, Yoast SEO, etc. that increased website’s user traffic by 500%.",
+          img: "assets/project images/P4T 2020 Logo Square.jpg",
+          url: "https://www.philo4thought.org/"
         },
       ];
 
@@ -47,25 +41,26 @@ export default function Works() {
     return (
         <div className="works" id="works">
             <div className="slider" style={{ transform:`translateX(-${currentSlide * 100}vw)` }}>
-              {data.map((d) => (
 
+              {data.map((d) => (
                 <div className="container">
                   <div className="itemWorks">
                       <div className="left">
                           <div className="leftContainer">
                               <h2>{d.title}</h2>
                               <p>{d.desc}</p>
-                              <a href={d.url}>Project</a>  
+                              <a href={d.url} target="_blank" rel="noreferrer">Project</a>  
                           </div>
                       </div>
 
                       <div className="right">
                           <img src={d.img} alt="" />
                       </div>
-                      
+      
                   </div>
                 </div>
               ))}
+
             </div>
             <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
             <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick()}/>

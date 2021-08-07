@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss"
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio} from "../../data";
+import { featuredPortfolio, webPortfolio, researchPortfolio, otherPortfolio, blogPortfolio } from "../../data";
 
 export default function Portfolio() {
 
@@ -20,16 +20,16 @@ export default function Portfolio() {
           title: "Web App",
         },
         {
-          id: "mobile",
-          title: "Mobile App",
+          id: "research",
+          title: "Research",
         },
         {
-          id: "design",
-          title: "Design",
+          id: "other",
+          title: "Other",
         },
         {
-          id: "content",
-          title: "Content",
+          id: "blog",
+          title: "Blogs",
         },
       ];
 
@@ -45,16 +45,16 @@ export default function Portfolio() {
             setData(webPortfolio);
             break;
 
-          case "mobile":
-            setData(mobilePortfolio);
+          case "research":
+            setData(researchPortfolio);
             break;
 
-          case "design":
-            setData(designPortfolio);
+          case "other":
+            setData(otherPortfolio);
             break;
 
-           case "content":
-            setData(contentPortfolio);
+           case "blog":
+            setData(blogPortfolio);
             break;
 
           default: 
@@ -82,7 +82,9 @@ export default function Portfolio() {
 
               {data.map((d) => (
                 <div className="item">
-                    <img src={d.img} alt="" />
+                    <a href= {d.url} target="_blank" rel="noreferrer"> 
+                      <img src={d.img} alt="" />
+                    </a> 
                     <h3>{d.title}</h3>
                 </div>
             ))}

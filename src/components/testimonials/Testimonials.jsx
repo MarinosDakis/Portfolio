@@ -11,7 +11,7 @@ export default function Testimonials() {
           title: "",
           img:
             "assets/temp.png",
-          icon: "assets/linkedin.png",
+          icon: "assets/temp.png",
           desc:
             "",
         },
@@ -32,7 +32,7 @@ export default function Testimonials() {
             title: "",
             img:
               "assets/temp.png",
-            icon: "assets/linkedin.png",
+            icon: "assets/temp.png",
             desc:
               "",
           },

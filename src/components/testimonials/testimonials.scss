@@ -92,13 +92,14 @@
       .center {
         padding: 10px;
         border-radius: 10px;
-        background-color: rgb(250, 244, 245);
+        background-color: rgb(232, 248, 253);
 
         @include mobile {
           font-size: 12px;
           padding: 5px;
         }
       }
+      
       .bottom {
         display: flex;
         align-items: center;
