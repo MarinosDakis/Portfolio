@@ -36,14 +36,14 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      height: 100vh;
+      height: 100%;
       flex-direction: column;
       justify-content: center;
       overflow: hidden;
     }
 
     .container {
-      width: 100%;
+      width: 100vw;
       display: flex;
       align-items: center;
       justify-content: center;
