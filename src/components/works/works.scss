@@ -39,10 +39,11 @@
       height: 100vh;
       flex-direction: column;
       justify-content: center;
+      overflow: hidden;
     }
 
     .container {
-      width: 100vw;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -60,8 +61,8 @@
 
         @include mobile {
           width: 80%;
-          height: 175px;
-          margin: 15px 0;
+          height: 200px;
+          margin: 10px 0;
         }
 
         .left {
