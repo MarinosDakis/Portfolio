@@ -11,7 +11,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "Memories Web app",
       img: "assets/project images/memories.png",
-      url: "https://silly-minsky-872be3.netlify.app/",
+      url: "https://frosty-johnson-9eeb16.netlify.app/",
     },
     {
       id: 3,
