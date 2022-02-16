@@ -49,7 +49,6 @@ export const featuredPortfolio = [
       img: "assets/project images/url extractor.png",
       url: "https://github.com/MarinosDakis/Software-Engineering-370",
     },
-    
   ];
   
   export const webPortfolio = [
@@ -79,27 +78,27 @@ export const featuredPortfolio = [
       },
       {
         id: 5,
+        title: "Student Filter",
+        img: "assets/project images/student-filter.png",
+        url: "https://admiring-gates-827268.netlify.app/",
+      },    
+      {
+        id: 6,
         title: "Analog Clock",
         img: "assets/project images/clock.png",
         url: "https://marinosdakis.github.io/Analog%20Clock%20(LinkedIn%20Learning%20Week%206)/index.html",
       },
       {
-        id: 6,
+        id: 7,
         title: "Speed Test Typer",
         img: "assets/project images/speed.png",
         url: "https://marinosdakis.github.io/Typing%20speed%20tester%20(LinkedIn%20Learning%20Week%206)/index.html",
       },
       {
-        id: 7,
+        id: 8,
         title: "File Metadata Microservice",
         img: "assets/project images/file metadata.png",
         url: "https://boilerplate-project-filemetadata--marinosdakis.repl.co/",
-      },
-      {
-        id: 8,
-        title: "Weather API Web App",
-        img: "assets/project images/weather.jpg",
-        url: "https://marinosdakis.github.io/Weather%20Application/weather.html",
       },
   ];
   

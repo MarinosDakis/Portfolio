@@ -1,7 +1,7 @@
 // Adapted from: https://www.youtube.com/watch?v=7WwtzsSHdpI
 
-import "./topbar.scss"
-import {Phone, Mail, Description, LinkedIn, GitHub, Instagram} from "@material-ui/icons"
+import "./topbar.scss";
+import {Phone, Mail, Description, LinkedIn, GitHub, Instagram} from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className="logo">Marinos Dakis.</a>
                     <div className="itemContainer">
                         <Phone className="icon" />
-                        <span>(516)-737-5961</span>
+                        <span>+1 (516)-737-5961</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"  />
@@ -19,7 +19,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <Description className="icon"  />
-                        <span><a href="https://drive.google.com/file/d/1lXCU3vSnSwo6ZTRLXWyoWOBZbOYlcJmZ/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></span>
+                        <span><a href="https://drive.google.com/file/d/1Y7PBsmvEEEYMYpiqHrei6AyQ-WH35nl7/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></span>
                     </div>
                     <div className="itemContainer">
                         <LinkedIn className="icon"  />
@@ -35,7 +35,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                 </div>
                 <div className="right">
-                    <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>
                         <span className="line3"></span>
