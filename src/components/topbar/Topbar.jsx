@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className="logo">Marinos Dakis.</a>
                     <div className="itemContainer">
                         <Phone className="icon" />
-                        <span>+1 (516)-737-5961</span>
+                        <span>+1 (516)-387-6165</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"  />
@@ -19,7 +19,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <Description className="icon"  />
-                        <span><a href="https://drive.google.com/file/d/1Y7PBsmvEEEYMYpiqHrei6AyQ-WH35nl7/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></span>
+                        <span><a href="https://drive.google.com/file/d/15Qp6qzT8tAtMc8k6Nm7sWIpN8JtyWOEv/view?usp=share_link" target="_blank" rel="noreferrer">Resume</a></span>
                     </div>
                     <div className="itemContainer">
                         <LinkedIn className="icon"  />
