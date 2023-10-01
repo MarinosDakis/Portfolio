@@ -14,7 +14,7 @@ export default function Intro() {
             showCursor: false,
             backDelay: 1500, //adds a delay before backspacing text
             backSpeed: 70,
-            strings: ["Healthcare","Bio-medical Informatics", "Machine Learning", "Bio-medical Diagnostics"]
+            strings: ["Web Development","Consulting", "Automation", "User experience"]
         });
     },[]);
 

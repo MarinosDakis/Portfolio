@@ -79,9 +79,8 @@ export default function Portfolio() {
             </ul>
 
             <div className="container">
-
               {data.map((d) => (
-                <div className="item">
+                <div className="item" id={`${d.title}-category`}>
                     <a href= {d.url} target="_blank" rel="noreferrer"> 
                       <img src={d.img} alt="" />
                     </a> 
